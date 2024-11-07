@@ -32,3 +32,18 @@ All execution artifacts can be found in `./artifacts`, if you want to remove the
         </ul>
     </li>
 </ul>
+
+Descrição dos testes:
+Testes Automatizados E2E (End-to-End) com Playwright
+Este projeto contém testes end-to-end automatizados para o site Wikipedia, desenvolvidos com Playwright. Os testes cobrem funcionalidades principais de busca, navegação entre artigos e a verificação do comportamento de links externos. Abaixo, estão descritos os cenários de teste implementados.
+
+1. Cenário de Teste: Realizar uma Busca e Verificar os Resultados
+Objetivo: Validar que a busca no site Wikipedia retorna resultados corretos, com base no termo pesquisado.
+
+Ações:
+Navega até a página inicial da Wikipedia.
+Insere o termo de busca desejado no campo de pesquisa (por exemplo, "Inteligência Artificial").
+Submete a busca e verifica se a página de resultados é exibida.
+Verificações:
+Confirma se o título da página de resultados contém o termo buscado.
+Verifica se o artigo possui uma seção de introdução com o conteúdo esperado.
